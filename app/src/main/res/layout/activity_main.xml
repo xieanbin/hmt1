@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.myapplication.MainActivity"
+
+    >
+
+
+    <TableRow>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="启动"
+            android:id="@+id/btn1"
+            android:onClick="hello1"
+           />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="解除"
+            android:id="@+id/btn3"
+            android:onClick="hello2"
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="绑定"
+            android:id="@+id/btn4"
+            android:onClick="hello3"
+            />
+
+        <Button
+            android:text="解绑"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn5"
+            android:onClick="hello4"/>
+    </TableRow>
+
+    <TableRow >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="启动"
+            android:id="@+id/btn6"
+            android:onClick="send"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="解除"
+            android:id="@+id/btn7"
+            android:onClick="hello2"
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="绑定"
+            android:id="@+id/btn8"
+            android:onClick="hello3"
+            />
+
+        <Button
+            android:text="解绑"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn9"
+            android:onClick="hello4"/>
+    </TableRow>
+
+</TableLayout>
